@@ -19,6 +19,20 @@ Os arquivos presentes na pasta `Cabeçalho e Rodapé - Ilum` são apenas imagens
 
 Para analisar a construção do projeto e o desenvolvimento do código desde o início, analise os commits realizados na branch `dev`.
 
+### **Requisitos**
+Para a execução do projeto, é necessário possuir:
+
+- Python 3.10 ou superior
+- Biblioteca Pygame (pode ser instalada através do comando `%pip install pygame`, que pode ser executado diretamente em uma célula de código no notebook)
+- Ambiente que rode notebooks, como JupyterLab, por exemplo (para executar o arquivo `.ipynb`)
+
+No desenvolvimento do projeto, foi utilizado o seguinte ambiente:
+
+- Python 3.13.7
+- Pygame 2.6.1
+- VS Code (com extensão do Jupyter)
+- Windows 11 64 bits
+
 ### **Principais Funções e Estrutura do Projeto**
 #### `posicao_maca()`
 Essa função é responsável por gerar uma posição aleatória para a maçã dentro dos limites do campo de jogo, utilizando a função `randint()` do módulo `random` para isso. `posicao_maca()`, garante também que a maçã apareça alinhada ao movimento da cobrinha.
